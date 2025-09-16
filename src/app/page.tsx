@@ -88,9 +88,7 @@ export default function HomePage() {
           </Card>
         </div>
 
-        {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Recent Activity */}
           <Card>
             <CardHeader>
               <CardTitle>Atividade Recente</CardTitle>
@@ -131,7 +129,6 @@ export default function HomePage() {
             </CardContent>
           </Card>
 
-          {/* Quick Actions */}
           <Card>
             <CardHeader>
               <CardTitle>Ações Rápidas</CardTitle>
@@ -166,6 +163,13 @@ export default function HomePage() {
                 >
                   <Settings className="h-6 w-6 mb-2" />
                   <span className="text-sm">Configurações</span>
+                </Button>
+                <Button
+                  variant="outline"
+                  className="h-20 flex flex-col items-center justify-center"
+                >
+                  <BarChart3 className="h-6 w-6 mb-2" />
+                  <span className="text-sm">Acessar Painel</span>
                 </Button>
               </div>
             </CardContent>
